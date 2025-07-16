@@ -12,7 +12,7 @@ resources: {}
 env: []
 
 config:
-  clients: 
+  clients:
     main:
       headers:
         Accept: application/vnd.github+json
