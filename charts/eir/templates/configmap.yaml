@@ -7,7 +7,7 @@ metadata:
     app: {{ include "eir.name" . }}
 data:
 {{- range $name, $value := .Values.config.endpoint_groups }}
-  {{ $name }}.json: {{ $value | toJson }}
+  {{ $name }}.json: {{ $value | toJson | quote }}
 {{- end }}
 ---
 apiVersion: v1
@@ -18,5 +18,5 @@ metadata:
     app: {{ include "eir.name" . }}
 data:
 {{- range $name, $value := .Values.config.contexts }}
-  {{ $name }}.json: {{ $value | toJson }}
+  {{ $name }}.json: {{ $value | toJson | quote }}
 {{- end }}
