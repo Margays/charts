@@ -1,5 +1,5 @@
 image:
-  repository: eir
+  repository: margays/eir
   tag: latest
   pullPolicy: IfNotPresent
 
