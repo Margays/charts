@@ -1,0 +1,15 @@
+apiVersion: v2
+appVersion: "1.1.1"
+description: A Helm chart for deploying the Eir metrics collector
+name: eir
+keywords:
+  - monitoring
+  - metrics
+  - collector
+sources:
+  - https://github.com/Margays/eir
+maintainers:
+  - name: lwencel-priv
+    email: lwencel@margays.dev
+    url: https://github.com/lwencel-priv
+version: 1.1.1
