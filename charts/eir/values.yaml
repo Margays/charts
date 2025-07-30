@@ -1,6 +1,6 @@
 image:
   repository: margays/eir
-  tag: v1.1.1
+  tag: v1.2.0
   pullPolicy: IfNotPresent
 
 service:
