@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   eir:
   - apiVersion: v2
+    appVersion: v1.4.7
+    created: "2025-09-03T20:34:26.700484694Z"
+    description: A Helm chart for deploying the Eir metrics collector
+    digest: f9344f335ecd6aafcca2f2d6a6f20e980f868a9f6adfc8e26dc6c40be0269697
+    name: eir
+    urls:
+    - https://github.com/Margays/charts/releases/download/eir-1.4.7/eir-1.4.7.tgz
+    version: 1.4.7
+  - apiVersion: v2
     appVersion: 1.2.0
     created: "2025-07-30T19:32:21.587118471Z"
     description: A Helm chart for deploying the Eir metrics collector
@@ -39,4 +48,4 @@ entries:
     urls:
     - https://github.com/Margays/charts/releases/download/eir-1.1.1/eir-1.1.1.tgz
     version: 1.1.1
-generated: "2025-07-30T19:32:21.587125144Z"
+generated: "2025-09-03T20:34:26.700496336Z"
