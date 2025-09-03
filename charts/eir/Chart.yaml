@@ -1,5 +1,5 @@
 apiVersion: v2
 name: eir
-version: 1.4.7
+version: 1.5.0
 description: A Helm chart for deploying the Eir metrics collector
-appVersion: "v1.4.7"
+appVersion: "v1.5.0"
