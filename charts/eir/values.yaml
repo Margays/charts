@@ -1,6 +1,6 @@
 image:
   repository: eir
-  tag: v1.6.0
+  tag: v1.6.1
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
@@ -43,8 +43,8 @@ config:
           labels:
             - name: static
               value: some_static_value
-    contexts:
-      main:
-        client: main
-        endpoint_groups:
-          - github
+  contexts:
+    main:
+      client: main
+      endpoint_groups:
+        - github
