@@ -1,6 +1,6 @@
 image:
   repository: eir
-  tag: v1.6.1
+  tag: v1.6.2
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
