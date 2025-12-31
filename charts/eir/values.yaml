@@ -1,6 +1,6 @@
 image:
   repository: docker.io/margays/eir
-  tag: v1.7.1
+  tag: v1.7.2
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
